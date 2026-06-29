@@ -1,5 +1,6 @@
 # Zomato Content-Based Restaurant Recommendation System
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://zomato-recommendation-system-9jjf8y7uzbgmxkasuy7izy.streamlit.app/)
+
 A content-based recommendation engine for Zomato restaurants using **TF-IDF vectorization** and **Cosine Similarity**. Built on the full Kaggle dataset of **9,551 restaurants** with an interactive Streamlit UI and data visualizations.
 
 ## Features
