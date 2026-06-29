@@ -63,13 +63,6 @@ streamlit run app.py
 
 Open `http://localhost:8501` in your browser.
 
-## Deploy to Streamlit Community Cloud (public link)
-
-1. Push this repo to GitHub (do **not** commit `.venv/` or `data/zomato.csv`).
-2. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
-3. Click **Create app** → pick your repo, branch, and set **Main file path** to `app.py`.
-4. Deploy. Your app will be live at `https://<your-app-name>.streamlit.app`.
-
 **Notes for cloud deploy**
 
 - `requirements.txt` is trimmed for production (no Jupyter).
