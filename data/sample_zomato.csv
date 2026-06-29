@@ -1,0 +1,501 @@
+Restaurant ID,Restaurant Name,Country Code,City,Address,Locality,Locality Verbose,Longitude,Latitude,Cuisines,Average Cost for two,Currency,Has Table booking,Has Online delivery,Is delivering now,Switch to order menu,Price range,Aggregate rating,Rating color,Rating text,Votes
+1,Royal Bites 1,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",74.783,13.3708,"Mexican, Thai, South Indian",511,INR,Yes,Yes,Yes,No,1,2.7,Yellow,Poor,4477
+2,The Express 2,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",73.812,24.9632,"Mexican, North Indian, Seafood",1252,INR,Yes,No,Yes,No,3,4.1,Green,Very Good,2797
+3,Royal Diner 3,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.1779,22.8325,"Chinese, Pizza",985,INR,Yes,Yes,Yes,Yes,2,4.7,Green,Excellent,3110
+4,Urban Kitchen 4,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",74.4698,23.4888,South Indian,836,INR,Yes,Yes,Yes,No,2,3.5,Green,Good,2998
+5,Cafe Grill 5,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",74.0584,16.2335,"Thai, Cafe, Biryani",1490,INR,No,Yes,No,No,3,2.6,Yellow,Poor,272
+6,Bistro Bites 6,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",74.6772,16.3653,"Fast Food, Thai",1270,INR,No,Yes,Yes,Yes,3,3.7,Green,Good,4798
+7,The Diner 7,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",76.8457,13.0814,"Biryani, Italian, Continental",858,INR,No,No,Yes,No,2,4.8,Green,Excellent,4344
+8,Royal Treats 8,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",74.2027,22.9954,"North Indian, Mexican",1701,INR,Yes,No,Yes,Yes,4,4.3,Green,Very Good,4168
+9,Golden Garden 9,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",73.9321,21.8642,"North Indian, South Indian",1640,INR,Yes,No,Yes,Yes,4,4.5,Green,Excellent,2529
+10,House of Flavors 10,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.0424,24.1646,"Mughlai, Mexican, BBQ",1404,INR,No,No,No,Yes,3,3.5,Green,Good,1745
+11,Golden Garden 11,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",73.1337,22.8714,Cafe,517,INR,Yes,Yes,No,Yes,1,3.8,Green,Good,4830
+12,Delhi Lounge 12,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.9421,20.373,"BBQ, Continental",1008,INR,Yes,Yes,Yes,No,2,4.2,Green,Very Good,4687
+13,Spice Grill 13,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",76.2226,25.5494,"Pizza, Chinese",1255,INR,Yes,Yes,Yes,No,3,4.8,Green,Excellent,816
+14,Kitchen Diner 14,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",73.2602,23.2039,Mexican,1076,INR,Yes,Yes,Yes,Yes,2,4.5,Green,Excellent,627
+15,Bistro Hub 15,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",77.1546,25.305,"Continental, Seafood",1746,INR,No,No,Yes,Yes,4,2.9,Yellow,Poor,27
+16,Kitchen Diner 16,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",77.1211,21.2918,Chinese,1229,INR,Yes,Yes,Yes,Yes,3,2.6,Yellow,Poor,4795
+17,Bistro Treats 17,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",75.5433,21.16,Thai,933,INR,Yes,No,Yes,No,2,2.6,Yellow,Poor,681
+18,Kitchen Bites 18,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",77.4927,28.6383,"Bakery, Pizza, Mughlai",1637,INR,Yes,No,Yes,No,4,4.7,Green,Excellent,86
+19,Delhi Treats 19,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",75.286,23.4522,"Bakery, Mughlai",1083,INR,No,Yes,Yes,No,2,3.7,Green,Good,2488
+20,Mumbai Treats 20,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",76.8087,20.8855,"Fast Food, Mexican, Japanese",1328,INR,Yes,Yes,No,No,3,4.2,Green,Very Good,1677
+21,House of Garden 21,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",73.3258,27.8318,"Fast Food, Mexican",876,INR,Yes,No,Yes,No,2,3.5,Green,Good,3513
+22,Mumbai Palace 22,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",74.4623,21.7462,"Desserts, Chinese",1408,INR,Yes,Yes,Yes,Yes,3,3.0,Yellow,Average,2054
+23,The Express 23,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",76.5007,14.6079,Cafe,1219,INR,No,Yes,Yes,No,3,3.4,Yellow,Average,2042
+24,The Palace 24,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",77.3444,17.3102,Thai,660,INR,No,No,Yes,Yes,1,2.9,Yellow,Poor,2699
+25,Bistro Bites 25,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",77.4259,14.7272,"Mexican, Chinese, BBQ",1095,INR,Yes,No,Yes,No,2,3.3,Yellow,Average,2579
+26,Delhi Kitchen 26,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",75.9179,14.8691,"Continental, Desserts, Japanese",553,INR,No,No,No,No,1,4.0,Green,Very Good,2714
+27,Delhi Bites 27,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.2145,21.5574,Continental,800,INR,No,No,Yes,No,2,4.7,Green,Excellent,1435
+28,Mumbai Palace 28,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.1338,23.3889,"Pizza, Japanese",1371,INR,Yes,Yes,No,Yes,3,3.7,Green,Good,1400
+29,Kitchen Grill 29,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",76.9648,21.9956,Chinese,996,INR,No,No,Yes,Yes,2,3.6,Green,Good,606
+30,Spice Diner 30,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",73.9712,26.3037,"Thai, Mughlai",1433,INR,Yes,No,No,No,3,4.1,Green,Very Good,3815
+31,Mumbai Hub 31,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.3993,21.1365,"Pizza, Mughlai, Desserts",1322,INR,No,No,Yes,No,3,3.5,Green,Good,2035
+32,Bangalore Corner 32,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.1019,19.3401,"Cafe, Italian",677,INR,No,No,Yes,Yes,1,3.0,Yellow,Average,1261
+33,Bistro Diner 33,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",76.3133,21.5289,"North Indian, Seafood, Thai",512,INR,No,Yes,No,No,1,3.3,Yellow,Average,3204
+34,Delhi Diner 34,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",72.9267,19.1255,"Cafe, Seafood",1488,INR,Yes,Yes,No,Yes,3,4.4,Green,Very Good,1055
+35,Cafe Grill 35,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",74.1078,27.929,Mexican,1015,INR,No,Yes,No,Yes,2,3.0,Yellow,Average,2687
+36,Golden Corner 36,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",76.7444,22.7171,"Thai, Italian",1322,INR,Yes,No,Yes,Yes,3,4.0,Green,Very Good,264
+37,Royal Bites 37,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",72.9207,17.8289,"Mughlai, South Indian",1392,INR,No,Yes,Yes,Yes,3,2.9,Yellow,Poor,2558
+38,House of Treats 38,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",74.4038,26.3233,"South Indian, Chinese, Mughlai",1050,INR,Yes,No,No,No,2,4.0,Green,Very Good,574
+39,Kitchen Lounge 39,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",74.8472,24.4502,Japanese,1737,INR,No,Yes,Yes,No,4,3.1,Yellow,Average,4418
+40,Kitchen Corner 40,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",74.4677,16.982,"Seafood, Cafe",543,INR,No,Yes,Yes,Yes,1,4.5,Green,Excellent,1499
+41,Royal Hub 41,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",73.8415,23.8302,"Thai, BBQ",1356,INR,No,No,No,No,3,3.6,Green,Good,151
+42,Cafe Palace 42,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.2915,27.9239,"Pizza, Mexican",894,INR,Yes,Yes,No,No,2,3.0,Yellow,Average,1587
+43,Spice Flavors 43,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",75.3104,17.2341,Continental,827,INR,No,Yes,No,Yes,2,3.3,Yellow,Average,2486
+44,The Lounge 44,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",73.3362,13.9324,"BBQ, Japanese",1051,INR,Yes,Yes,Yes,Yes,2,2.9,Yellow,Poor,430
+45,Delhi Bites 45,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",73.8607,21.1566,Thai,630,INR,No,No,No,No,1,4.3,Green,Very Good,4976
+46,Golden Express 46,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",75.3944,15.3732,"South Indian, Continental, Cafe",1009,INR,No,No,No,Yes,2,4.0,Green,Very Good,1296
+47,Mumbai Corner 47,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",74.7982,21.5041,"Bakery, Pizza, Chinese",1276,INR,No,Yes,Yes,Yes,3,4.6,Green,Excellent,4841
+48,The Diner 48,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.3379,19.8166,"Bakery, Pizza, Chinese",820,INR,No,No,No,Yes,2,3.2,Yellow,Average,3307
+49,House of Treats 49,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",74.8785,17.2949,"North Indian, Mexican, Bakery",699,INR,No,No,Yes,No,1,4.2,Green,Very Good,3864
+50,The Treats 50,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",77.2424,25.7543,"Cafe, South Indian",1481,INR,Yes,No,Yes,No,3,3.3,Yellow,Average,4068
+51,Mumbai Diner 51,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",74.9713,13.7564,Seafood,1465,INR,No,No,No,Yes,3,4.4,Green,Very Good,19
+52,Mumbai Bites 52,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",76.5568,24.1146,"Fast Food, Bakery, Thai",1359,INR,Yes,No,Yes,Yes,3,3.6,Green,Good,246
+53,Bangalore Hub 53,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",74.7528,20.5235,Fast Food,1041,INR,Yes,No,Yes,No,2,4.1,Green,Very Good,4178
+54,House of Hub 54,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",76.6566,17.3689,"Fast Food, Italian, Japanese",1352,INR,No,Yes,No,No,3,4.5,Green,Excellent,2794
+55,Delhi Grill 55,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",73.8977,25.1536,"Seafood, Pizza, BBQ",822,INR,No,No,No,No,2,2.9,Yellow,Poor,1966
+56,Kitchen Palace 56,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",75.272,20.1195,Fast Food,873,INR,No,Yes,Yes,No,2,3.9,Green,Good,832
+57,Bistro Kitchen 57,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",75.746,26.9215,"Seafood, Italian, Biryani",1049,INR,Yes,Yes,Yes,No,2,4.1,Green,Very Good,4381
+58,Spice Kitchen 58,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.5419,17.5352,"South Indian, Japanese",991,INR,No,Yes,Yes,No,2,4.1,Green,Very Good,247
+59,Kitchen Bites 59,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.4727,20.1862,Mughlai,530,INR,No,No,Yes,No,1,4.5,Green,Excellent,1982
+60,The Treats 60,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",77.3215,23.807,Italian,1033,INR,No,Yes,No,No,2,3.3,Yellow,Average,4823
+61,The Garden 61,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",75.4599,23.7356,"Desserts, Bakery",1625,INR,No,No,Yes,No,4,3.2,Yellow,Average,3252
+62,The Lounge 62,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",72.9568,18.6648,"Mexican, Fast Food, Cafe",467,INR,Yes,No,No,No,1,3.9,Green,Good,332
+63,The Lounge 63,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",77.3467,17.5632,Desserts,973,INR,Yes,No,Yes,Yes,2,4.6,Green,Excellent,1357
+64,Kitchen Kitchen 64,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",75.9623,23.523,"Desserts, Italian, Seafood",1099,INR,No,No,Yes,Yes,2,3.1,Yellow,Average,1022
+65,Mumbai Grill 65,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.3484,13.6165,"Cafe, Thai, Japanese",419,INR,No,No,Yes,Yes,1,4.4,Green,Very Good,2485
+66,Bistro Bites 66,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",76.2887,15.3415,Seafood,1012,INR,Yes,No,No,No,2,4.0,Green,Very Good,4435
+67,Royal Treats 67,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",74.5265,27.1468,Pizza,983,INR,Yes,No,No,Yes,2,3.0,Yellow,Average,2981
+68,Spice Kitchen 68,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",73.9448,14.8896,Continental,1489,INR,Yes,Yes,Yes,Yes,3,3.9,Green,Good,184
+69,House of Hub 69,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",76.553,14.6368,North Indian,813,INR,Yes,Yes,No,Yes,2,4.8,Green,Excellent,1074
+70,House of Palace 70,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.3046,20.4247,Mughlai,985,INR,Yes,No,Yes,Yes,2,2.8,Yellow,Poor,3458
+71,Mumbai Palace 71,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",75.1043,27.2733,"North Indian, Chinese",1637,INR,Yes,No,Yes,Yes,4,4.4,Green,Very Good,3502
+72,Bistro Palace 72,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",76.5276,14.7077,"Cafe, Seafood, Bakery",1082,INR,Yes,No,No,Yes,2,3.5,Green,Good,4969
+73,Mumbai Hub 73,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",74.5592,15.3117,"Seafood, Biryani",1442,INR,Yes,Yes,Yes,Yes,3,3.2,Yellow,Average,2570
+74,Cafe Treats 74,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.3745,18.4868,"Desserts, Fast Food, Mexican",616,INR,Yes,No,No,No,1,4.7,Green,Excellent,4611
+75,House of Kitchen 75,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",73.34,17.3014,"Continental, Fast Food, Cafe",915,INR,No,Yes,No,Yes,2,4.4,Green,Very Good,2878
+76,Mumbai Grill 76,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.1271,24.6073,"Bakery, Cafe, Mughlai",415,INR,Yes,Yes,No,No,1,4.5,Green,Excellent,4649
+77,Delhi Palace 77,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.9517,15.3582,Desserts,825,INR,Yes,No,No,No,2,3.2,Yellow,Average,4659
+78,Royal Hub 78,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.9876,22.2715,"Mexican, Continental",1469,INR,No,Yes,Yes,No,3,2.8,Yellow,Poor,3531
+79,The Hub 79,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.3422,13.0221,Continental,1020,INR,Yes,Yes,No,Yes,2,3.0,Yellow,Average,1134
+80,Kitchen Palace 80,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.8519,21.997,Seafood,1493,INR,No,No,No,Yes,3,2.6,Yellow,Poor,163
+81,Bistro Palace 81,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.9436,22.2042,"Mughlai, Pizza",1468,INR,Yes,No,No,No,3,4.6,Green,Excellent,731
+82,Golden Kitchen 82,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",74.4502,28.0399,Italian,875,INR,Yes,Yes,Yes,No,2,2.8,Yellow,Poor,4187
+83,Delhi Bites 83,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",74.9099,27.5016,"Fast Food, Italian, BBQ",1889,INR,No,No,Yes,No,4,3.9,Green,Good,3810
+84,The Lounge 84,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",74.924,13.7989,"Bakery, Mexican",946,INR,Yes,Yes,No,No,2,3.3,Yellow,Average,617
+85,Kitchen Palace 85,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",76.6115,26.1306,"Continental, Cafe",1243,INR,Yes,Yes,Yes,No,3,3.7,Green,Good,516
+86,Spice Treats 86,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",75.8423,13.9414,"Desserts, Bakery",848,INR,No,No,No,Yes,2,4.3,Green,Very Good,4907
+87,Urban Bites 87,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",76.1315,14.2386,"Fast Food, Desserts, Japanese",1886,INR,No,No,Yes,Yes,4,4.1,Green,Very Good,3220
+88,Kitchen Corner 88,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",73.8648,15.0735,Desserts,839,INR,No,Yes,Yes,No,2,4.7,Green,Excellent,2809
+89,Bangalore Lounge 89,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.0054,18.6559,"Seafood, Fast Food, Italian",921,INR,No,No,No,Yes,2,4.1,Green,Very Good,1366
+90,Kitchen Hub 90,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",76.4572,20.8459,"BBQ, Continental",1014,INR,Yes,Yes,Yes,No,2,4.7,Green,Excellent,3619
+91,Kitchen Diner 91,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",73.4925,19.8121,"South Indian, Japanese",913,INR,No,No,Yes,No,2,4.3,Green,Very Good,2244
+92,Cafe Palace 92,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",76.7441,23.1694,"Desserts, Thai, Continental",1674,INR,Yes,Yes,No,No,4,3.4,Yellow,Average,240
+93,House of Flavors 93,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",75.6617,19.5874,"North Indian, Italian",547,INR,Yes,No,Yes,Yes,1,3.0,Yellow,Average,1234
+94,Spice Treats 94,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",75.2223,16.7226,"Pizza, Italian, Chinese",1273,INR,No,No,Yes,No,3,3.6,Green,Good,4401
+95,House of Diner 95,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",76.4961,20.9204,"Mughlai, Italian",810,INR,No,No,Yes,No,2,3.3,Yellow,Average,4319
+96,Delhi Flavors 96,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",76.3564,15.0079,"North Indian, Desserts, Seafood",580,INR,No,Yes,No,No,1,3.1,Yellow,Average,859
+97,Spice Kitchen 97,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",77.1868,21.0431,Pizza,678,INR,No,No,Yes,Yes,1,3.0,Yellow,Average,1644
+98,Bistro Flavors 98,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",74.8668,28.0124,Cafe,973,INR,Yes,No,No,No,2,4.3,Green,Very Good,3589
+99,House of Hub 99,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.3097,14.1651,Biryani,551,INR,No,No,No,Yes,1,3.9,Green,Good,1488
+100,Royal Treats 100,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",75.7963,18.6403,"Chinese, Desserts",1281,INR,Yes,Yes,No,Yes,3,3.5,Green,Good,479
+101,Delhi Express 101,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.9916,27.8914,Desserts,990,INR,No,Yes,Yes,No,2,4.7,Green,Excellent,275
+102,Bistro Diner 102,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",73.3535,25.1444,"Mexican, Thai, Chinese",628,INR,Yes,No,No,Yes,1,2.9,Yellow,Poor,4251
+103,Mumbai Kitchen 103,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",75.9388,24.1107,Pizza,1081,INR,No,No,Yes,Yes,2,4.1,Green,Very Good,729
+104,Kitchen Garden 104,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.4962,21.942,South Indian,1839,INR,Yes,Yes,Yes,No,4,4.3,Green,Very Good,1949
+105,Mumbai Palace 105,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",74.9149,23.6457,"Biryani, Japanese, BBQ",976,INR,Yes,Yes,Yes,No,2,2.8,Yellow,Poor,2607
+106,Bangalore Corner 106,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.4263,27.7663,Japanese,945,INR,Yes,No,Yes,No,2,2.9,Yellow,Poor,2653
+107,Cafe Bites 107,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",72.9936,26.5477,"Italian, Mughlai, Bakery",1641,INR,Yes,No,Yes,No,4,2.9,Yellow,Poor,4967
+108,The Lounge 108,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.143,13.8466,"Bakery, Japanese",1025,INR,No,No,No,Yes,2,4.4,Green,Very Good,3336
+109,Bistro Express 109,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",76.3751,21.0367,Cafe,1254,INR,No,Yes,No,Yes,3,3.2,Yellow,Average,2839
+110,Delhi Grill 110,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",73.9669,26.5719,Fast Food,481,INR,No,No,Yes,Yes,1,3.2,Yellow,Average,3156
+111,Kitchen Corner 111,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",73.8112,18.4757,"Bakery, BBQ",425,INR,No,No,No,No,1,4.7,Green,Excellent,4150
+112,Bistro Kitchen 112,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.0126,13.7083,Biryani,687,INR,Yes,No,No,Yes,1,3.1,Yellow,Average,3006
+113,House of Kitchen 113,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",76.3483,16.0451,"Mexican, South Indian, Italian",1860,INR,No,Yes,Yes,Yes,4,3.4,Yellow,Average,2787
+114,Cafe Bites 114,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",74.2971,19.1087,"Japanese, Pizza",553,INR,No,No,No,No,1,4.6,Green,Excellent,1155
+115,Delhi Lounge 115,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",74.048,23.2583,"South Indian, Biryani",1096,INR,Yes,Yes,No,Yes,2,4.3,Green,Very Good,228
+116,Golden Garden 116,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",74.8729,19.5167,Thai,611,INR,Yes,No,No,Yes,1,4.7,Green,Excellent,910
+117,Cafe Express 117,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",74.9604,21.3234,Cafe,1879,INR,No,No,No,Yes,4,3.6,Green,Good,3096
+118,Cafe Lounge 118,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",74.4394,27.6525,"Bakery, Thai, Fast Food",1340,INR,No,Yes,No,No,3,4.1,Green,Very Good,4015
+119,Mumbai Hub 119,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",76.3125,16.281,"Chinese, Bakery",1875,INR,No,No,Yes,Yes,4,2.7,Yellow,Poor,3633
+120,Spice Palace 120,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",74.7425,24.2343,Chinese,1251,INR,Yes,Yes,Yes,No,3,3.7,Green,Good,1917
+121,Mumbai Bites 121,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",73.8914,24.5712,"Continental, Bakery, Mughlai",819,INR,Yes,No,Yes,Yes,2,2.6,Yellow,Poor,742
+122,Delhi Palace 122,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",77.1637,18.1937,Bakery,1432,INR,No,Yes,No,No,3,2.5,Yellow,Poor,4662
+123,Bangalore Kitchen 123,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.5166,21.8709,"Mughlai, Pizza",1298,INR,Yes,No,No,No,3,4.2,Green,Very Good,125
+124,The Grill 124,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",73.9069,24.8094,"South Indian, Mughlai, Italian",968,INR,No,Yes,No,No,2,4.7,Green,Excellent,65
+125,Bangalore Palace 125,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.8019,27.762,"South Indian, Pizza, Fast Food",988,INR,Yes,Yes,Yes,No,2,4.1,Green,Very Good,2557
+126,Mumbai Corner 126,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.3807,23.6494,"Desserts, Biryani, Japanese",841,INR,No,No,Yes,Yes,2,3.6,Green,Good,4413
+127,Mumbai Corner 127,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.1695,20.6235,"Continental, Fast Food, Italian",1061,INR,No,Yes,No,Yes,2,3.7,Green,Good,962
+128,Bistro Hub 128,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.6373,24.6837,"Chinese, Pizza",1496,INR,Yes,Yes,No,No,3,3.2,Yellow,Average,188
+129,Bistro Express 129,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.4142,25.0001,Italian,1815,INR,No,No,No,No,4,3.6,Green,Good,2361
+130,Urban Flavors 130,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.4,26.0902,"Fast Food, Desserts, Chinese",811,INR,No,No,No,No,2,3.7,Green,Good,4342
+131,Spice Treats 131,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",74.7704,25.0036,"Desserts, Fast Food",808,INR,Yes,Yes,Yes,Yes,2,4.7,Green,Excellent,934
+132,House of Corner 132,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",76.3456,25.1618,"Chinese, Thai",1271,INR,No,Yes,No,No,3,3.4,Yellow,Average,1929
+133,House of Bites 133,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",76.9347,27.3029,Japanese,1018,INR,No,Yes,No,No,2,3.2,Yellow,Average,509
+134,Kitchen Corner 134,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.7919,17.6516,"Biryani, Japanese, Italian",873,INR,No,Yes,No,No,2,2.9,Yellow,Poor,4416
+135,Cafe Palace 135,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",75.3175,26.0046,"Thai, Mexican",826,INR,No,No,Yes,Yes,2,4.0,Green,Very Good,3694
+136,Golden Corner 136,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",77.3218,14.7536,"Continental, BBQ, South Indian",1445,INR,Yes,Yes,No,Yes,3,3.3,Yellow,Average,135
+137,Cafe Diner 137,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.9492,20.2629,"Seafood, Pizza",1040,INR,No,Yes,No,No,2,3.3,Yellow,Average,2152
+138,Bangalore Grill 138,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",74.1874,15.9998,"Thai, Fast Food, North Indian",917,INR,No,Yes,No,No,2,4.6,Green,Excellent,4754
+139,Bangalore Diner 139,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",75.0951,27.387,"BBQ, Pizza, Italian",1477,INR,Yes,Yes,Yes,Yes,3,3.3,Yellow,Average,1156
+140,House of Lounge 140,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",74.554,22.6618,Thai,647,INR,No,Yes,Yes,No,1,2.8,Yellow,Poor,1801
+141,Urban Palace 141,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",77.1148,21.1853,"Mexican, Bakery, North Indian",923,INR,Yes,No,No,No,2,4.1,Green,Very Good,3537
+142,The Treats 142,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",76.6919,14.1737,"Seafood, Pizza",816,INR,Yes,No,No,No,2,4.8,Green,Excellent,1860
+143,Mumbai Kitchen 143,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.4595,26.4558,North Indian,1248,INR,Yes,Yes,Yes,No,3,2.7,Yellow,Poor,3564
+144,Urban Kitchen 144,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",72.8736,16.1731,Mexican,1273,INR,No,Yes,No,Yes,3,3.8,Green,Good,279
+145,House of Flavors 145,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",77.3793,13.7484,"Seafood, Cafe, Continental",1423,INR,Yes,Yes,No,No,3,2.8,Yellow,Poor,652
+146,Bistro Express 146,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",75.9946,23.3386,"Mexican, Pizza, Thai",843,INR,No,Yes,Yes,Yes,2,3.8,Green,Good,3085
+147,The Lounge 147,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",74.4916,17.1623,"Fast Food, Seafood",867,INR,Yes,Yes,No,No,2,2.7,Yellow,Poor,52
+148,Delhi Kitchen 148,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.8595,13.095,North Indian,611,INR,No,Yes,Yes,Yes,1,3.8,Green,Good,4900
+149,Urban Grill 149,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",74.097,17.6361,Mexican,839,INR,No,No,Yes,No,2,3.6,Green,Good,528
+150,Delhi Grill 150,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",76.5792,18.1068,"South Indian, Fast Food",971,INR,No,Yes,No,No,2,4.7,Green,Excellent,2731
+151,Bangalore Flavors 151,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",75.7746,28.1907,"Cafe, Mughlai",1724,INR,No,No,No,No,4,4.7,Green,Excellent,2397
+152,Bangalore Corner 152,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",74.8607,17.503,"Continental, Mughlai, Cafe",1235,INR,No,No,Yes,No,3,2.6,Yellow,Poor,3791
+153,Kitchen Bites 153,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",74.6838,20.9045,"Fast Food, Biryani, Seafood",1014,INR,Yes,No,Yes,Yes,2,3.5,Green,Good,4908
+154,Cafe Grill 154,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.2979,14.458,Chinese,913,INR,Yes,No,No,No,2,4.0,Green,Very Good,3283
+155,Royal Flavors 155,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",73.4659,17.8279,"North Indian, BBQ",633,INR,Yes,No,No,No,1,3.5,Green,Good,713
+156,Spice Kitchen 156,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",75.8455,23.5988,"Pizza, Cafe, Chinese",884,INR,Yes,Yes,Yes,No,2,4.4,Green,Very Good,952
+157,Bistro Garden 157,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.2657,26.8529,"Thai, Seafood",1430,INR,No,No,Yes,Yes,3,2.9,Yellow,Poor,3550
+158,Golden Lounge 158,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.3356,23.4971,"Italian, South Indian, Seafood",1450,INR,No,No,No,Yes,3,2.9,Yellow,Poor,2680
+159,Cafe Palace 159,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",73.9213,14.7478,"Mughlai, Bakery",1791,INR,Yes,No,No,Yes,4,3.9,Green,Good,1107
+160,House of Express 160,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.1013,15.1167,"Mughlai, BBQ",1361,INR,No,Yes,No,Yes,3,4.1,Green,Very Good,1429
+161,Bistro Treats 161,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",75.1111,24.1202,Seafood,1827,INR,No,Yes,Yes,Yes,4,3.7,Green,Good,4064
+162,Delhi Flavors 162,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",76.431,20.726,Mexican,1061,INR,Yes,Yes,No,No,2,3.2,Yellow,Average,3756
+163,The Garden 163,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.9137,18.4075,"Pizza, Continental, BBQ",444,INR,No,Yes,Yes,Yes,1,4.4,Green,Very Good,2037
+164,Spice Bites 164,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.4488,17.3411,"Biryani, Mughlai, Bakery",675,INR,Yes,No,No,No,1,3.0,Yellow,Average,1705
+165,Mumbai Express 165,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.0967,14.9965,"South Indian, Fast Food, Seafood",1274,INR,No,Yes,No,No,3,4.6,Green,Excellent,2281
+166,Bistro Diner 166,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",76.3241,23.8763,"Mexican, Biryani, Continental",988,INR,No,No,No,Yes,2,4.0,Green,Very Good,772
+167,Golden Lounge 167,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",74.0621,25.9878,"Desserts, Italian, Seafood",972,INR,Yes,No,No,Yes,2,3.0,Yellow,Average,3529
+168,Spice Grill 168,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",73.7509,23.7798,"Pizza, North Indian, Chinese",1667,INR,No,Yes,No,Yes,4,2.9,Yellow,Poor,3749
+169,Bistro Treats 169,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",74.2359,23.9512,Desserts,1319,INR,No,Yes,Yes,Yes,3,4.0,Green,Very Good,434
+170,Spice Garden 170,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.0693,25.8103,Fast Food,1016,INR,Yes,No,Yes,Yes,2,3.7,Green,Good,3655
+171,Urban Treats 171,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.4668,15.1571,"South Indian, Japanese, Mughlai",1071,INR,Yes,Yes,No,No,2,3.2,Yellow,Average,3145
+172,Delhi Flavors 172,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",74.6049,28.1193,"Pizza, Continental",561,INR,Yes,Yes,No,Yes,1,2.7,Yellow,Poor,1018
+173,House of Bites 173,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",75.1948,24.7159,"Bakery, North Indian, Biryani",1351,INR,Yes,Yes,No,No,3,4.5,Green,Excellent,1693
+174,Bistro Bites 174,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",74.7781,21.5324,"Italian, North Indian",1688,INR,No,Yes,Yes,Yes,4,4.6,Green,Excellent,1091
+175,House of Hub 175,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",75.7543,20.8166,Chinese,1812,INR,No,No,Yes,Yes,4,4.7,Green,Excellent,3270
+176,Bistro Bites 176,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",75.7812,26.0855,"Italian, Continental",1633,INR,No,No,Yes,Yes,4,2.9,Yellow,Poor,2686
+177,Royal Garden 177,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.1271,23.9837,"South Indian, Pizza",1283,INR,No,No,No,Yes,3,2.6,Yellow,Poor,1448
+178,The Diner 178,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.1002,24.1547,"Mexican, South Indian, Seafood",1495,INR,Yes,No,No,No,3,3.3,Yellow,Average,3527
+179,Mumbai Flavors 179,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",73.3421,24.6043,"Mughlai, Desserts, Italian",801,INR,Yes,Yes,Yes,Yes,2,2.7,Yellow,Poor,4711
+180,Bangalore Flavors 180,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",75.8818,16.4473,"Fast Food, Mughlai",1727,INR,No,No,No,Yes,4,4.5,Green,Excellent,4539
+181,House of Garden 181,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",77.2842,13.989,Japanese,1438,INR,No,No,No,Yes,3,2.6,Yellow,Poor,1838
+182,Bangalore Bites 182,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",73.9401,18.7187,Desserts,1052,INR,Yes,Yes,Yes,Yes,2,3.8,Green,Good,2499
+183,Cafe Garden 183,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",76.367,18.8451,Desserts,1357,INR,Yes,Yes,Yes,No,3,4.1,Green,Very Good,88
+184,Bistro Flavors 184,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.0092,20.1436,Mexican,443,INR,Yes,Yes,No,Yes,1,4.6,Green,Excellent,4267
+185,Bangalore Flavors 185,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.3334,20.0536,"Fast Food, Thai",919,INR,Yes,Yes,Yes,Yes,2,4.5,Green,Excellent,3229
+186,Cafe Corner 186,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",74.924,20.2209,Pizza,861,INR,Yes,Yes,No,Yes,2,3.4,Yellow,Average,4400
+187,House of Garden 187,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.9828,17.0106,Italian,1289,INR,Yes,No,No,Yes,3,4.7,Green,Excellent,3256
+188,Urban Corner 188,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",76.6713,18.7814,Fast Food,443,INR,No,Yes,Yes,Yes,1,2.6,Yellow,Poor,1830
+189,Royal Garden 189,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",77.2287,13.7001,Italian,1893,INR,No,No,No,Yes,4,4.4,Green,Very Good,2726
+190,Kitchen Express 190,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",72.9629,22.683,Desserts,925,INR,No,No,No,No,2,2.9,Yellow,Poor,2302
+191,Golden Treats 191,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",77.4722,21.4898,"Seafood, Fast Food",809,INR,No,No,No,No,2,4.0,Green,Very Good,4317
+192,Spice Hub 192,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",73.0754,28.5662,"Cafe, Seafood, Fast Food",1071,INR,No,Yes,Yes,Yes,2,3.2,Yellow,Average,1804
+193,Cafe Express 193,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",73.6277,22.2618,"Chinese, Thai",983,INR,Yes,No,Yes,Yes,2,4.8,Green,Excellent,3191
+194,Golden Garden 194,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",75.2743,12.9108,BBQ,503,INR,Yes,No,Yes,No,1,2.6,Yellow,Poor,4938
+195,Royal Kitchen 195,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",76.1113,23.3618,Fast Food,1500,INR,Yes,No,No,No,3,4.4,Green,Very Good,2999
+196,Bangalore Bites 196,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",76.4989,16.4271,"Biryani, BBQ, Cafe",889,INR,No,No,No,Yes,2,4.1,Green,Very Good,4613
+197,Mumbai Bites 197,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",73.2893,20.7397,"Seafood, Chinese, Italian",1369,INR,Yes,Yes,No,No,3,4.6,Green,Excellent,1819
+198,Cafe Hub 198,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.499,24.2825,"Cafe, Pizza, North Indian",824,INR,No,No,No,Yes,2,3.1,Yellow,Average,565
+199,Mumbai Treats 199,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",73.8602,20.0303,"Desserts, Seafood",417,INR,No,Yes,No,No,1,3.6,Green,Good,4745
+200,Cafe Bites 200,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",77.4308,27.013,"Mughlai, Seafood",815,INR,No,Yes,No,Yes,2,2.7,Yellow,Poor,772
+201,The Treats 201,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",74.1232,16.6533,"Continental, Japanese",825,INR,No,No,Yes,Yes,2,3.8,Green,Good,4434
+202,Golden Palace 202,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",72.921,15.5991,"Italian, Bakery",1349,INR,Yes,No,Yes,No,3,3.9,Green,Good,3944
+203,Bistro Kitchen 203,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",73.6769,13.6049,"Mexican, Italian",1425,INR,No,No,Yes,No,3,3.4,Yellow,Average,3049
+204,Bistro Bites 204,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.8693,13.8635,South Indian,598,INR,No,No,Yes,No,1,3.3,Yellow,Average,4445
+205,Urban Corner 205,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",76.5998,14.8937,"Chinese, Fast Food",616,INR,Yes,No,Yes,Yes,1,4.2,Green,Very Good,1426
+206,The Diner 206,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.9533,26.7008,"Italian, Japanese",1100,INR,No,Yes,No,Yes,2,3.4,Yellow,Average,2681
+207,Cafe Grill 207,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",74.0414,23.2456,"South Indian, Japanese, Bakery",1492,INR,No,Yes,Yes,No,3,4.3,Green,Very Good,4397
+208,Spice Flavors 208,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",75.0335,17.1436,"Seafood, Chinese, Continental",1390,INR,Yes,No,No,No,3,3.3,Yellow,Average,1956
+209,The Flavors 209,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",74.7588,23.0998,"South Indian, Thai, Italian",896,INR,No,Yes,No,No,2,4.2,Green,Very Good,2638
+210,Bistro Express 210,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.4684,21.1837,Japanese,1491,INR,Yes,Yes,Yes,Yes,3,2.7,Yellow,Poor,4161
+211,The Kitchen 211,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",76.6705,20.881,Pizza,463,INR,Yes,Yes,No,No,1,3.3,Yellow,Average,1641
+212,The Flavors 212,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.7051,14.3282,BBQ,814,INR,No,Yes,Yes,Yes,2,3.3,Yellow,Average,1349
+213,Kitchen Express 213,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",75.8426,22.398,"Continental, Mexican, Cafe",804,INR,Yes,No,No,No,2,2.5,Yellow,Poor,82
+214,Delhi Grill 214,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.5471,13.0161,"Pizza, Mexican",991,INR,No,No,Yes,No,2,3.2,Yellow,Average,4275
+215,Golden Express 215,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",75.2313,16.6968,"Cafe, Mexican",829,INR,No,No,Yes,Yes,2,4.1,Green,Very Good,2457
+216,Golden Kitchen 216,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.2148,16.4133,"Biryani, Seafood",1073,INR,No,No,No,Yes,2,2.6,Yellow,Poor,4696
+217,Urban Treats 217,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",77.0281,23.2401,"South Indian, BBQ",513,INR,No,Yes,No,No,1,3.1,Yellow,Average,4589
+218,Delhi Bites 218,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",73.1347,26.9529,"Bakery, Pizza",1456,INR,Yes,No,No,No,3,3.6,Green,Good,4790
+219,Urban Kitchen 219,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",76.8533,15.7496,Continental,841,INR,No,No,Yes,No,2,4.8,Green,Excellent,3758
+220,Kitchen Palace 220,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",73.4082,19.7526,"Mexican, Continental",1419,INR,No,No,No,No,3,2.9,Yellow,Poor,1307
+221,Golden Garden 221,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",75.9807,22.8017,"Continental, Desserts, North Indian",1327,INR,Yes,No,No,Yes,3,4.2,Green,Very Good,4360
+222,Kitchen Flavors 222,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",75.2454,21.1811,"Bakery, Mughlai, Chinese",1422,INR,Yes,No,No,No,3,3.2,Yellow,Average,2392
+223,Bangalore Garden 223,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",75.5716,15.57,"North Indian, Thai",987,INR,Yes,No,No,Yes,2,4.8,Green,Excellent,1740
+224,Royal Diner 224,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.9879,23.9895,"South Indian, North Indian, BBQ",1305,INR,Yes,No,No,Yes,3,3.5,Green,Good,3125
+225,The Palace 225,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.4884,20.7643,"Fast Food, Biryani, BBQ",1302,INR,No,Yes,No,No,3,3.7,Green,Good,974
+226,Cafe Corner 226,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",72.8129,23.5118,BBQ,1656,INR,No,Yes,Yes,Yes,4,4.1,Green,Very Good,3947
+227,Spice Hub 227,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",74.493,23.5929,"Thai, Pizza, Fast Food",1018,INR,Yes,Yes,Yes,Yes,2,2.6,Yellow,Poor,1441
+228,Cafe Kitchen 228,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",73.6595,19.2323,"Desserts, Pizza",1833,INR,No,No,No,No,4,3.1,Yellow,Average,771
+229,Bistro Bites 229,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.0686,21.8893,Chinese,1824,INR,Yes,No,No,Yes,4,4.4,Green,Very Good,859
+230,Spice Flavors 230,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.8812,21.1921,"South Indian, Biryani",1095,INR,Yes,No,Yes,No,2,2.6,Yellow,Poor,2584
+231,Spice Treats 231,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",77.1915,20.888,"Seafood, Fast Food",1440,INR,No,Yes,Yes,No,3,3.8,Green,Good,457
+232,Bistro Corner 232,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.1705,19.9182,"Mexican, Chinese",1093,INR,No,Yes,No,No,2,3.8,Green,Good,3111
+233,Spice Palace 233,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",76.5214,28.1181,"North Indian, South Indian",955,INR,Yes,No,No,No,2,2.6,Yellow,Poor,4508
+234,Royal Palace 234,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",76.3688,16.4036,"Cafe, BBQ",1374,INR,No,No,No,Yes,3,3.3,Yellow,Average,3717
+235,Royal Grill 235,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",73.8133,25.928,"Fast Food, Biryani",497,INR,No,Yes,No,Yes,1,3.9,Green,Good,1546
+236,House of Grill 236,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",76.7424,20.5303,"Pizza, Fast Food",1860,INR,Yes,Yes,Yes,Yes,4,2.5,Yellow,Poor,407
+237,Bistro Kitchen 237,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",77.3613,20.055,"Seafood, Biryani, Bakery",1668,INR,Yes,No,No,No,4,4.3,Green,Very Good,2251
+238,Mumbai Express 238,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",77.4123,23.1714,Continental,1291,INR,No,Yes,No,No,3,3.2,Yellow,Average,2838
+239,Urban Garden 239,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.9502,16.0585,"Bakery, Biryani, Seafood",482,INR,No,No,Yes,Yes,1,2.7,Yellow,Poor,3130
+240,Golden Flavors 240,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",75.8415,19.0444,"Chinese, Desserts, Biryani",1061,INR,No,Yes,No,No,2,3.9,Green,Good,4612
+241,Golden Treats 241,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.1118,23.1326,"Chinese, North Indian, Desserts",1079,INR,Yes,Yes,No,No,2,3.9,Green,Good,3639
+242,Bistro Hub 242,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.416,14.9551,Mughlai,1499,INR,No,Yes,No,No,3,2.8,Yellow,Poor,342
+243,Kitchen Bites 243,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.3858,14.0515,Cafe,962,INR,Yes,Yes,Yes,Yes,2,4.3,Green,Very Good,2477
+244,Cafe Kitchen 244,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",74.1798,27.9149,Desserts,1071,INR,No,Yes,Yes,No,2,3.0,Yellow,Average,2728
+245,Bistro Hub 245,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",75.3391,17.3687,"Thai, Chinese, Cafe",1464,INR,No,No,No,Yes,3,3.4,Yellow,Average,938
+246,House of Garden 246,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",75.7466,16.2303,"Japanese, Italian",1709,INR,No,Yes,Yes,No,4,2.9,Yellow,Poor,4417
+247,Spice Express 247,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",76.5328,21.7177,Pizza,1494,INR,Yes,No,No,No,3,2.6,Yellow,Poor,610
+248,Mumbai Flavors 248,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.7062,24.8442,"Cafe, North Indian",1099,INR,Yes,Yes,No,Yes,2,2.8,Yellow,Poor,58
+249,Kitchen Express 249,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",75.3073,15.0548,"Italian, Bakery, Seafood",1800,INR,No,Yes,No,No,4,3.4,Yellow,Average,262
+250,House of Palace 250,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",74.232,24.7231,"Fast Food, South Indian, North Indian",576,INR,Yes,No,Yes,Yes,1,3.9,Green,Good,4410
+251,House of Lounge 251,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",75.83,14.0557,"Mexican, Continental, Chinese",834,INR,No,Yes,Yes,No,2,4.3,Green,Very Good,455
+252,Cafe Lounge 252,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",74.918,22.6382,Thai,556,INR,Yes,No,No,No,1,3.9,Green,Good,1595
+253,Cafe Express 253,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.994,18.1387,"Thai, Japanese",1445,INR,No,No,No,No,3,4.0,Green,Very Good,2276
+254,House of Corner 254,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",74.0372,26.9041,Italian,1239,INR,Yes,Yes,Yes,No,3,4.5,Green,Excellent,1156
+255,Mumbai Express 255,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",74.5193,16.4282,Mexican,948,INR,Yes,No,Yes,No,2,4.8,Green,Excellent,3877
+256,House of Express 256,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.8972,15.7305,Thai,1489,INR,Yes,No,No,Yes,3,4.4,Green,Very Good,1368
+257,House of Kitchen 257,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",74.624,27.4029,Italian,823,INR,Yes,No,Yes,No,2,3.0,Yellow,Average,1703
+258,House of Hub 258,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.5687,27.2344,"Mughlai, Seafood, Cafe",1064,INR,No,No,No,No,2,3.9,Green,Good,647
+259,Golden Express 259,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.6785,18.6231,"Fast Food, Pizza, Italian",860,INR,Yes,No,No,Yes,2,3.7,Green,Good,2310
+260,Spice Express 260,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.4954,15.4458,"Continental, Mughlai",1462,INR,Yes,Yes,Yes,Yes,3,3.4,Yellow,Average,2006
+261,Royal Corner 261,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",74.9113,28.5859,"Seafood, North Indian, Pizza",1446,INR,Yes,Yes,No,Yes,3,4.0,Green,Very Good,2332
+262,Delhi Bites 262,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.1236,18.8757,"Japanese, Mexican, Italian",1267,INR,Yes,Yes,Yes,No,3,3.3,Yellow,Average,3724
+263,House of Diner 263,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",76.3362,14.3724,Mughlai,866,INR,Yes,No,No,No,2,3.9,Green,Good,329
+264,Bangalore Flavors 264,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",75.5078,19.6227,"Thai, BBQ",1330,INR,No,Yes,Yes,No,3,3.4,Yellow,Average,4835
+265,House of Palace 265,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.2429,18.8255,"Continental, North Indian",1305,INR,No,No,No,Yes,3,4.3,Green,Very Good,4744
+266,Mumbai Grill 266,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.3484,19.429,"Mexican, Japanese, Biryani",1085,INR,No,Yes,No,No,2,3.8,Green,Good,2267
+267,Bangalore Corner 267,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",74.899,23.9491,"Desserts, Seafood, Japanese",482,INR,Yes,Yes,No,No,1,4.5,Green,Excellent,985
+268,Urban Lounge 268,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",77.1516,19.779,Seafood,1632,INR,No,Yes,No,Yes,4,2.5,Yellow,Poor,756
+269,Spice Express 269,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",75.8094,19.8358,"Seafood, Japanese, Bakery",1303,INR,No,Yes,Yes,Yes,3,3.2,Yellow,Average,4904
+270,The Grill 270,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",74.4597,19.1433,"Chinese, Desserts, South Indian",1500,INR,Yes,Yes,Yes,Yes,3,4.7,Green,Excellent,721
+271,Kitchen Grill 271,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",75.5021,17.0255,"Desserts, Japanese, Biryani",1008,INR,Yes,Yes,No,No,2,3.9,Green,Good,1603
+272,Cafe Lounge 272,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.0035,27.0651,"Mexican, Pizza",1614,INR,No,Yes,No,Yes,4,3.8,Green,Good,2002
+273,Bangalore Hub 273,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",73.9668,14.3695,"Thai, Cafe, Continental",1775,INR,Yes,Yes,No,No,4,3.7,Green,Good,89
+274,Bangalore Corner 274,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.9038,16.7245,"Mexican, Mughlai, Desserts",1335,INR,Yes,Yes,Yes,Yes,3,4.6,Green,Excellent,4097
+275,Delhi Garden 275,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.3919,21.4553,South Indian,421,INR,No,No,No,No,1,2.7,Yellow,Poor,4045
+276,Spice Diner 276,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.5566,20.4575,"Mughlai, Mexican",1076,INR,Yes,No,No,Yes,2,4.2,Green,Very Good,1060
+277,Bistro Bites 277,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.2735,18.6133,"Japanese, Pizza, Mughlai",1332,INR,Yes,No,Yes,No,3,2.5,Yellow,Poor,1736
+278,Cafe Grill 278,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",74.1143,15.7422,"Mughlai, BBQ",867,INR,Yes,Yes,No,Yes,2,3.5,Green,Good,3059
+279,Spice Express 279,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",74.7811,15.0247,"Continental, Fast Food",1464,INR,No,No,No,No,3,4.2,Green,Very Good,3884
+280,Mumbai Palace 280,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.9143,18.1876,"South Indian, Mughlai",584,INR,No,No,No,Yes,1,4.4,Green,Very Good,3913
+281,Mumbai Diner 281,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",75.0912,24.5371,"Continental, Mughlai",1640,INR,No,No,No,Yes,4,3.2,Yellow,Average,2673
+282,Cafe Treats 282,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",74.1694,17.1261,"Seafood, Italian",602,INR,No,No,No,No,1,3.3,Yellow,Average,2578
+283,Bangalore Flavors 283,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",76.3238,16.227,North Indian,603,INR,Yes,Yes,Yes,No,1,3.0,Yellow,Average,2071
+284,The Bites 284,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.5298,23.2464,Seafood,999,INR,No,Yes,Yes,No,2,4.8,Green,Excellent,861
+285,Cafe Lounge 285,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",74.9958,26.6602,Japanese,1339,INR,No,Yes,Yes,No,3,2.6,Yellow,Poor,2933
+286,The Kitchen 286,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",74.7374,15.3603,"Bakery, Desserts, Thai",805,INR,Yes,Yes,No,No,2,4.4,Green,Very Good,3629
+287,Delhi Corner 287,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",76.5448,21.5618,"BBQ, Japanese, Fast Food",496,INR,No,No,No,Yes,1,3.5,Green,Good,2409
+288,Delhi Flavors 288,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.0178,17.3979,"Thai, Mexican",672,INR,No,No,Yes,Yes,1,3.9,Green,Good,4242
+289,Golden Kitchen 289,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",72.8912,13.6842,"South Indian, Pizza",1473,INR,Yes,Yes,Yes,No,3,3.1,Yellow,Average,4040
+290,Cafe Grill 290,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",74.2644,25.5315,"Pizza, North Indian, South Indian",590,INR,No,Yes,No,Yes,1,2.5,Yellow,Poor,1789
+291,Bistro Garden 291,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",73.3732,25.0367,"Seafood, Italian",927,INR,No,No,Yes,Yes,2,2.9,Yellow,Poor,2058
+292,Urban Treats 292,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",76.2227,24.6666,"South Indian, Continental, Thai",1081,INR,Yes,No,No,No,2,4.7,Green,Excellent,2656
+293,Cafe Garden 293,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.5866,17.2624,Continental,1661,INR,No,Yes,Yes,Yes,4,3.0,Yellow,Average,3566
+294,Mumbai Bites 294,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",74.3906,28.2205,"Fast Food, Desserts, Seafood",430,INR,Yes,No,Yes,Yes,1,2.9,Yellow,Poor,758
+295,Kitchen Flavors 295,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",73.7069,23.7901,Cafe,1783,INR,Yes,No,Yes,No,4,4.3,Green,Very Good,2855
+296,The Bites 296,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",77.098,21.6614,"BBQ, Continental, Bakery",835,INR,Yes,No,No,No,2,3.3,Yellow,Average,3847
+297,Delhi Corner 297,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.3073,13.9008,"North Indian, Seafood",1475,INR,No,Yes,No,Yes,3,4.5,Green,Excellent,2992
+298,Spice Express 298,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",73.6396,13.3941,"Biryani, Cafe",454,INR,No,Yes,Yes,Yes,1,3.7,Green,Good,556
+299,Spice Corner 299,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.882,27.5688,"BBQ, Mexican, North Indian",840,INR,No,Yes,No,No,2,3.9,Green,Good,590
+300,House of Palace 300,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",73.2758,16.5501,"Mexican, Chinese, Desserts",597,INR,Yes,Yes,Yes,Yes,1,3.2,Yellow,Average,1778
+301,Urban Express 301,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.3848,20.8741,"South Indian, Desserts, Cafe",880,INR,No,No,No,No,2,4.0,Green,Very Good,862
+302,House of Flavors 302,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",73.9942,28.0941,"Biryani, Cafe, Bakery",1029,INR,No,Yes,Yes,No,2,3.8,Green,Good,3082
+303,Spice Flavors 303,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",76.665,27.422,"Fast Food, Bakery, North Indian",1061,INR,Yes,Yes,Yes,No,2,3.0,Yellow,Average,2589
+304,The Hub 304,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.232,19.2168,Mexican,911,INR,Yes,No,No,Yes,2,3.8,Green,Good,1918
+305,Cafe Kitchen 305,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",76.935,19.762,"Bakery, Chinese, Desserts",1261,INR,Yes,Yes,No,Yes,3,3.4,Yellow,Average,468
+306,Bangalore Corner 306,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",73.52,23.5434,Cafe,1001,INR,No,Yes,Yes,No,2,2.8,Yellow,Poor,4125
+307,House of Grill 307,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",74.034,19.1967,Fast Food,1022,INR,Yes,Yes,No,Yes,2,3.6,Green,Good,413
+308,Mumbai Bites 308,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",73.2211,23.5136,"Continental, Thai, South Indian",616,INR,No,No,Yes,No,1,4.3,Green,Very Good,2659
+309,Delhi Express 309,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.8702,27.5026,"North Indian, Bakery, Italian",1719,INR,Yes,No,Yes,Yes,4,3.9,Green,Good,3632
+310,Cafe Flavors 310,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",76.5801,17.7209,Fast Food,1441,INR,Yes,No,Yes,Yes,3,4.4,Green,Very Good,122
+311,Bistro Bites 311,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",77.0584,21.2234,"Mexican, BBQ, Bakery",1330,INR,Yes,Yes,No,Yes,3,2.8,Yellow,Poor,160
+312,Mumbai Hub 312,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",75.916,27.3233,Pizza,1384,INR,Yes,Yes,No,No,3,2.5,Yellow,Poor,3193
+313,Golden Diner 313,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",77.3439,21.7589,"South Indian, Cafe, Thai",1211,INR,Yes,Yes,No,No,3,3.7,Green,Good,1537
+314,Golden Diner 314,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",74.0966,13.8798,"Mughlai, North Indian, Japanese",1331,INR,No,Yes,No,Yes,3,3.3,Yellow,Average,2486
+315,Bistro Corner 315,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.4926,19.6381,"Fast Food, Italian",1359,INR,No,No,Yes,Yes,3,3.7,Green,Good,1873
+316,Bistro Express 316,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",75.8843,21.8245,"Continental, Fast Food, BBQ",1280,INR,No,Yes,Yes,Yes,3,4.6,Green,Excellent,1117
+317,Kitchen Flavors 317,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",77.1887,27.0273,"North Indian, Cafe, Pizza",1740,INR,Yes,Yes,Yes,Yes,4,4.7,Green,Excellent,2495
+318,Royal Flavors 318,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.4652,15.0186,"Mexican, Thai, Bakery",1040,INR,No,Yes,No,No,2,4.1,Green,Very Good,2953
+319,The Grill 319,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",73.846,23.5072,Continental,903,INR,Yes,Yes,Yes,No,2,3.4,Yellow,Average,132
+320,Delhi Flavors 320,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.6743,24.2792,"Cafe, Pizza, BBQ",1001,INR,Yes,Yes,No,No,2,3.4,Yellow,Average,352
+321,Golden Hub 321,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",74.8659,26.8735,"Seafood, Chinese, Mexican",946,INR,No,Yes,No,No,2,4.3,Green,Very Good,413
+322,Royal Express 322,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",76.46,27.7179,"Japanese, Fast Food, Thai",1479,INR,Yes,No,No,No,3,3.5,Green,Good,4111
+323,Kitchen Palace 323,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.9754,23.8291,Pizza,883,INR,Yes,Yes,Yes,No,2,4.1,Green,Very Good,1664
+324,Cafe Bites 324,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",76.8951,26.5302,"Seafood, Mughlai, Continental",883,INR,Yes,Yes,Yes,No,2,2.6,Yellow,Poor,1409
+325,Spice Bites 325,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",76.3974,13.0929,"Pizza, Bakery, Cafe",1054,INR,No,Yes,No,Yes,2,4.6,Green,Excellent,1671
+326,Golden Diner 326,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",74.1071,22.8324,"BBQ, Pizza, Continental",906,INR,Yes,Yes,Yes,Yes,2,3.9,Green,Good,63
+327,Cafe Palace 327,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",73.0304,19.4879,Chinese,1291,INR,Yes,No,Yes,No,3,4.4,Green,Very Good,2454
+328,Royal Grill 328,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",76.7636,13.9258,Italian,1441,INR,Yes,Yes,No,No,3,3.2,Yellow,Average,3114
+329,Royal Lounge 329,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.2031,22.4555,"Continental, Japanese, Bakery",547,INR,No,No,No,No,1,3.8,Green,Good,4343
+330,Bangalore Hub 330,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",77.4025,12.925,"BBQ, Japanese, Thai",1212,INR,No,Yes,Yes,No,3,4.5,Green,Excellent,1916
+331,The Palace 331,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",74.2465,20.9057,"Desserts, Continental",565,INR,Yes,Yes,No,No,1,3.0,Yellow,Average,2317
+332,Kitchen Garden 332,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",75.8346,20.5076,Continental,1035,INR,No,No,No,Yes,2,3.3,Yellow,Average,3934
+333,Royal Express 333,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.1182,13.3925,"Cafe, North Indian, South Indian",992,INR,Yes,No,Yes,Yes,2,3.3,Yellow,Average,2906
+334,Kitchen Hub 334,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",73.8159,17.6766,"Chinese, Mexican, Continental",457,INR,No,Yes,Yes,Yes,1,4.5,Green,Excellent,3054
+335,The Kitchen 335,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",73.4735,26.6744,"Japanese, Fast Food",1064,INR,Yes,Yes,Yes,No,2,4.6,Green,Excellent,4299
+336,Royal Kitchen 336,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",74.9943,13.629,Bakery,1866,INR,No,Yes,No,Yes,4,4.1,Green,Very Good,4878
+337,Mumbai Palace 337,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",74.0815,15.3884,Bakery,858,INR,Yes,Yes,Yes,No,2,3.2,Yellow,Average,3623
+338,Delhi Kitchen 338,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",75.3407,13.7015,"Fast Food, Bakery",814,INR,No,Yes,Yes,No,2,2.9,Yellow,Poor,2560
+339,Delhi Kitchen 339,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",74.2685,25.8156,"Seafood, Mughlai",1473,INR,Yes,No,Yes,Yes,3,4.5,Green,Excellent,3662
+340,Delhi Hub 340,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.0904,19.0948,"Bakery, Pizza",969,INR,No,No,No,Yes,2,4.7,Green,Excellent,1187
+341,Cafe Bites 341,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",75.501,20.9256,Desserts,1007,INR,Yes,No,Yes,No,2,4.4,Green,Very Good,2322
+342,Bistro Palace 342,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",74.4014,25.7599,"Biryani, Thai",1420,INR,No,No,Yes,Yes,3,3.8,Green,Good,3961
+343,Urban Hub 343,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",77.2927,13.9998,"South Indian, Pizza",855,INR,No,No,No,Yes,2,2.7,Yellow,Poor,3657
+344,House of Hub 344,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",74.6329,22.0313,North Indian,1300,INR,Yes,No,No,No,3,4.0,Green,Very Good,3720
+345,The Garden 345,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",74.5353,21.5724,North Indian,1227,INR,Yes,No,Yes,No,3,3.7,Green,Good,1054
+346,House of Corner 346,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",75.9137,20.403,"Seafood, Cafe",1296,INR,No,No,No,Yes,3,3.4,Yellow,Average,3575
+347,Mumbai Grill 347,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",77.3824,15.0453,North Indian,470,INR,No,No,No,Yes,1,2.5,Yellow,Poor,3997
+348,Delhi Lounge 348,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",76.78,16.6406,"Pizza, Seafood, Mughlai",1056,INR,No,No,No,Yes,2,3.5,Green,Good,70
+349,Urban Flavors 349,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.2371,28.4405,"Desserts, South Indian",943,INR,No,Yes,Yes,Yes,2,4.7,Green,Excellent,665
+350,Kitchen Diner 350,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.0585,21.9687,"Bakery, Chinese, Pizza",969,INR,No,No,No,No,2,4.3,Green,Very Good,3850
+351,Spice Treats 351,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",77.4547,25.6806,"Bakery, Mexican, North Indian",1213,INR,No,No,Yes,Yes,3,3.8,Green,Good,4702
+352,Spice Flavors 352,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.3243,15.6589,"Mexican, Fast Food",1277,INR,No,No,Yes,No,3,3.1,Yellow,Average,2114
+353,Urban Bites 353,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",77.1895,15.3356,Japanese,1453,INR,No,No,Yes,No,3,3.3,Yellow,Average,701
+354,Urban Lounge 354,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",74.6741,17.6616,"Desserts, Chinese, Cafe",1072,INR,Yes,No,No,No,2,4.4,Green,Very Good,440
+355,House of Treats 355,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",77.2926,14.4384,"Biryani, North Indian, Fast Food",1872,INR,No,No,No,No,4,3.5,Green,Good,2596
+356,Bangalore Treats 356,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",75.567,15.9798,Mexican,1372,INR,Yes,No,Yes,Yes,3,3.4,Yellow,Average,1990
+357,The Corner 357,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",72.96,22.6865,"South Indian, Japanese",1229,INR,Yes,Yes,Yes,Yes,3,3.3,Yellow,Average,2330
+358,Mumbai Palace 358,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",75.8023,27.4786,"Mughlai, South Indian",1341,INR,No,No,No,Yes,3,3.1,Yellow,Average,3835
+359,The Express 359,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",74.8707,20.6692,Seafood,902,INR,No,Yes,No,Yes,2,4.8,Green,Excellent,2125
+360,Spice Palace 360,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",73.1309,24.3952,"Continental, South Indian",1828,INR,Yes,No,Yes,Yes,4,4.1,Green,Very Good,856
+361,Bangalore Lounge 361,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",75.0473,19.2818,"Fast Food, Cafe",1635,INR,Yes,Yes,No,No,4,3.8,Green,Good,4232
+362,Cafe Diner 362,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.8107,18.273,"Desserts, Cafe, BBQ",1035,INR,No,Yes,Yes,Yes,2,2.6,Yellow,Poor,752
+363,Mumbai Lounge 363,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",76.256,15.1111,"Seafood, South Indian",1298,INR,Yes,Yes,No,No,3,3.3,Yellow,Average,705
+364,Spice Kitchen 364,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",73.0635,25.3469,"Bakery, BBQ, Mexican",1621,INR,No,Yes,Yes,No,4,4.4,Green,Very Good,144
+365,Kitchen Bites 365,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.0153,23.9805,"Thai, Italian, North Indian",1266,INR,Yes,Yes,Yes,No,3,3.6,Green,Good,166
+366,Delhi Corner 366,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",73.0966,16.1017,"Mughlai, Italian, Biryani",1372,INR,No,No,Yes,Yes,3,2.8,Yellow,Poor,4884
+367,Bistro Express 367,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",76.0726,21.6438,Mughlai,1024,INR,Yes,Yes,Yes,Yes,2,2.8,Yellow,Poor,1167
+368,Urban Palace 368,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.1217,22.2809,North Indian,1345,INR,No,No,Yes,Yes,3,2.7,Yellow,Poor,69
+369,Delhi Express 369,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",76.1708,22.5704,"Pizza, Biryani, South Indian",1645,INR,No,No,No,Yes,4,3.9,Green,Good,318
+370,House of Diner 370,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.8306,25.0712,South Indian,1706,INR,No,Yes,Yes,Yes,4,4.7,Green,Excellent,2974
+371,The Corner 371,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",74.843,18.1819,"Mughlai, Japanese",1432,INR,Yes,Yes,Yes,Yes,3,2.6,Yellow,Poor,2993
+372,Delhi Bites 372,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",74.3321,16.0403,"Japanese, South Indian",566,INR,Yes,Yes,No,Yes,1,3.0,Yellow,Average,3653
+373,Kitchen Garden 373,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",76.9853,15.1901,"Biryani, Continental, BBQ",1432,INR,Yes,No,No,Yes,3,2.7,Yellow,Poor,4803
+374,Spice Hub 374,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",73.4416,26.3561,"Desserts, Mexican, South Indian",1034,INR,No,Yes,No,Yes,2,2.6,Yellow,Poor,4668
+375,Royal Grill 375,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",76.8278,20.6296,Mughlai,910,INR,No,No,No,Yes,2,3.8,Green,Good,1891
+376,Urban Bites 376,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",77.0218,19.5008,Cafe,822,INR,Yes,No,Yes,No,2,3.0,Yellow,Average,4857
+377,Bangalore Flavors 377,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",74.7111,16.3445,"South Indian, Pizza",983,INR,No,Yes,Yes,Yes,2,2.7,Yellow,Poor,111
+378,Kitchen Lounge 378,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.4276,26.7123,Pizza,1407,INR,Yes,No,No,Yes,3,4.2,Green,Very Good,209
+379,Delhi Corner 379,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",76.5022,14.1792,"Cafe, Chinese, Fast Food",971,INR,Yes,No,Yes,Yes,2,3.1,Yellow,Average,4453
+380,House of Flavors 380,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.4358,15.0868,"Chinese, Desserts",971,INR,Yes,Yes,No,Yes,2,4.0,Green,Very Good,558
+381,Kitchen Lounge 381,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.1568,26.007,"Mexican, Biryani",1040,INR,No,No,No,Yes,2,2.6,Yellow,Poor,2838
+382,Royal Express 382,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",74.0969,23.9139,Italian,1054,INR,Yes,Yes,Yes,No,2,2.9,Yellow,Poor,640
+383,Golden Palace 383,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",72.9036,25.5714,"Desserts, Biryani",1066,INR,No,No,No,No,2,4.0,Green,Very Good,2398
+384,Golden Lounge 384,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",74.5479,17.4527,"Bakery, Fast Food",1224,INR,Yes,No,No,No,3,3.2,Yellow,Average,2139
+385,Urban Corner 385,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",73.3495,28.6016,Bakery,1094,INR,Yes,No,No,No,2,2.9,Yellow,Poor,1267
+386,House of Hub 386,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",73.371,13.2938,"Chinese, Cafe, Mughlai",655,INR,Yes,No,No,Yes,1,3.5,Green,Good,1341
+387,Mumbai Express 387,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.558,24.411,"Cafe, Bakery, Thai",1426,INR,No,Yes,No,Yes,3,4.7,Green,Excellent,4709
+388,Kitchen Kitchen 388,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",73.2347,13.7695,Bakery,499,INR,Yes,No,Yes,Yes,1,3.9,Green,Good,1815
+389,House of Garden 389,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",77.0697,18.6048,"Italian, Seafood",875,INR,No,No,No,No,2,3.2,Yellow,Average,4966
+390,Golden Flavors 390,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",76.9727,24.6161,"Desserts, Bakery",1812,INR,No,No,Yes,No,4,4.5,Green,Excellent,727
+391,Cafe Palace 391,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",77.1858,22.2327,"Italian, Fast Food, South Indian",992,INR,Yes,Yes,No,No,2,4.8,Green,Excellent,4313
+392,Kitchen Garden 392,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",76.6672,17.6715,"Pizza, Fast Food, South Indian",1099,INR,No,No,No,Yes,2,3.4,Yellow,Average,4547
+393,Royal Treats 393,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",75.9298,17.4455,Mexican,891,INR,No,Yes,Yes,Yes,2,4.0,Green,Very Good,3881
+394,Mumbai Treats 394,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",75.0374,23.8691,Desserts,861,INR,No,Yes,No,Yes,2,3.8,Green,Good,2122
+395,Urban Garden 395,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.0816,19.5283,Cafe,982,INR,Yes,No,No,Yes,2,4.1,Green,Very Good,2937
+396,Mumbai Hub 396,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",74.0759,23.9279,"Mughlai, South Indian, Bakery",1385,INR,Yes,No,Yes,Yes,3,3.8,Green,Good,2600
+397,Royal Corner 397,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",73.5264,16.3936,"Desserts, BBQ",896,INR,Yes,No,No,Yes,2,4.6,Green,Excellent,1345
+398,Kitchen Bites 398,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",75.2587,28.2278,BBQ,888,INR,No,Yes,Yes,Yes,2,4.1,Green,Very Good,1148
+399,Bangalore Palace 399,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",73.1654,25.1401,"Thai, Bakery, Italian",1020,INR,Yes,Yes,Yes,Yes,2,4.8,Green,Excellent,3490
+400,Royal Palace 400,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",77.1245,16.1453,"South Indian, Mexican",502,INR,Yes,No,Yes,Yes,1,3.2,Yellow,Average,94
+401,House of Bites 401,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.1212,25.8495,"Desserts, Japanese, Italian",1207,INR,Yes,Yes,No,Yes,3,4.3,Green,Very Good,1991
+402,Bangalore Bites 402,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.6701,23.5417,"South Indian, Continental, Pizza",854,INR,Yes,No,No,No,2,4.1,Green,Very Good,3012
+403,Kitchen Palace 403,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",75.2427,20.7339,Biryani,584,INR,No,Yes,Yes,No,1,4.8,Green,Excellent,1022
+404,Golden Diner 404,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",74.7142,28.4624,"Bakery, Pizza",1419,INR,Yes,Yes,No,No,3,3.2,Yellow,Average,3646
+405,Royal Express 405,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",74.6556,23.8816,"BBQ, South Indian, Continental",852,INR,Yes,Yes,No,Yes,2,4.0,Green,Very Good,706
+406,Bangalore Bites 406,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",75.5902,24.8496,"Seafood, South Indian, BBQ",1404,INR,No,No,No,No,3,4.2,Green,Very Good,2291
+407,Golden Treats 407,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",77.2293,13.3696,Pizza,427,INR,Yes,No,Yes,Yes,1,3.1,Yellow,Average,4083
+408,Mumbai Diner 408,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.4076,25.4252,Bakery,1303,INR,No,No,No,No,3,2.7,Yellow,Poor,636
+409,Cafe Grill 409,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",74.88,13.4685,"North Indian, Chinese, Continental",1290,INR,No,Yes,No,No,3,2.8,Yellow,Poor,3697
+410,Mumbai Diner 410,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.4894,20.4194,"Seafood, BBQ, Japanese",480,INR,Yes,No,No,No,1,4.1,Green,Very Good,4546
+411,Cafe Kitchen 411,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",76.6049,22.1267,"Desserts, Bakery, Mughlai",574,INR,No,Yes,No,No,1,3.9,Green,Good,1060
+412,Royal Flavors 412,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",73.1079,17.7176,"Chinese, Thai",972,INR,Yes,Yes,No,Yes,2,4.0,Green,Very Good,4864
+413,Cafe Grill 413,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.4807,17.9943,"Japanese, Biryani, Fast Food",450,INR,No,Yes,Yes,No,1,3.6,Green,Good,192
+414,Mumbai Palace 414,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.7498,21.3662,Bakery,947,INR,No,Yes,No,No,2,3.5,Green,Good,4081
+415,Kitchen Grill 415,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",73.7858,25.4713,"Italian, South Indian, Bakery",954,INR,No,No,No,Yes,2,2.7,Yellow,Poor,4360
+416,Mumbai Flavors 416,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.2263,15.8473,"Japanese, Pizza",1455,INR,Yes,No,No,No,3,3.8,Green,Good,162
+417,Bistro Grill 417,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.2977,26.0174,"Continental, Desserts, Thai",432,INR,Yes,No,No,No,1,2.8,Yellow,Poor,2469
+418,The Lounge 418,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.0813,28.5624,"Thai, Seafood, South Indian",616,INR,Yes,Yes,Yes,No,1,2.9,Yellow,Poor,2021
+419,Spice Garden 419,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.84,14.2261,"Mexican, Mughlai",1352,INR,Yes,No,No,Yes,3,2.6,Yellow,Poor,3990
+420,House of Treats 420,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",76.6962,27.9049,South Indian,1068,INR,No,No,Yes,Yes,2,3.7,Green,Good,998
+421,Golden Express 421,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.302,16.2829,"Cafe, Seafood",1340,INR,No,No,No,Yes,3,4.2,Green,Very Good,3474
+422,Urban Kitchen 422,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",75.0335,18.7103,"South Indian, Cafe, Mexican",957,INR,Yes,Yes,Yes,Yes,2,4.1,Green,Very Good,2285
+423,Golden Lounge 423,1,Mumbai,"Juhu, Mumbai",Juhu,"Juhu, Mumbai, India",74.6258,27.2747,"Bakery, Desserts",1801,INR,No,No,Yes,Yes,4,4.1,Green,Very Good,4391
+424,Spice Hub 424,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",76.8723,25.9065,Pizza,1451,INR,No,No,No,No,3,4.5,Green,Excellent,3338
+425,Bangalore Kitchen 425,1,New Delhi,"Hauz Khas, New Delhi",Hauz Khas,"Hauz Khas, New Delhi, India",74.9303,13.3321,"Mexican, Italian, Mughlai",826,INR,Yes,No,Yes,Yes,2,4.2,Green,Very Good,4496
+426,Bangalore Treats 426,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",76.3869,26.282,"Bakery, Cafe, Japanese",610,INR,No,No,No,Yes,1,2.9,Yellow,Poor,4240
+427,Bistro Bites 427,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.8551,27.8801,"Cafe, Bakery, South Indian",685,INR,Yes,Yes,No,Yes,1,3.3,Yellow,Average,3233
+428,Royal Kitchen 428,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.5996,21.8624,Seafood,1207,INR,No,No,No,Yes,3,3.9,Green,Good,1232
+429,Bistro Corner 429,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",75.6204,28.6243,Mexican,944,INR,Yes,No,Yes,No,2,3.6,Green,Good,1076
+430,Delhi Treats 430,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.842,14.2547,"Mexican, Thai",1440,INR,Yes,No,No,Yes,3,4.6,Green,Excellent,3038
+431,Kitchen Kitchen 431,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",77.4847,27.7413,"Mexican, Italian, Chinese",823,INR,Yes,No,No,No,2,2.6,Yellow,Poor,1933
+432,Kitchen Kitchen 432,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",76.9261,14.9843,Chinese,962,INR,No,Yes,No,Yes,2,3.1,Yellow,Average,4136
+433,Bistro Hub 433,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",77.0431,17.0588,BBQ,1335,INR,No,No,Yes,No,3,4.4,Green,Very Good,2963
+434,Kitchen Hub 434,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",73.5687,20.2807,"Pizza, Chinese, South Indian",459,INR,No,Yes,No,No,1,3.0,Yellow,Average,303
+435,Cafe Palace 435,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",73.7575,17.389,"BBQ, South Indian",1286,INR,No,Yes,Yes,Yes,3,4.5,Green,Excellent,1022
+436,The Treats 436,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.4123,14.8275,BBQ,1391,INR,Yes,No,Yes,Yes,3,4.5,Green,Excellent,222
+437,Cafe Garden 437,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",75.884,27.9242,"BBQ, Pizza, Cafe",1766,INR,Yes,Yes,Yes,No,4,3.9,Green,Good,57
+438,Royal Garden 438,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",76.806,15.4745,"Italian, Seafood, Chinese",1006,INR,No,Yes,Yes,No,2,2.9,Yellow,Poor,3277
+439,Golden Lounge 439,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",74.8936,19.0318,"Bakery, Fast Food, Mughlai",1337,INR,No,Yes,No,No,3,4.4,Green,Very Good,4209
+440,Mumbai Corner 440,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",75.8438,24.1754,"Biryani, Italian",653,INR,Yes,No,No,No,1,3.3,Yellow,Average,3807
+441,House of Grill 441,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",74.1888,13.6541,"Fast Food, Japanese",1239,INR,Yes,Yes,No,No,3,3.2,Yellow,Average,2046
+442,Royal Flavors 442,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",75.9094,15.7369,"Mexican, Desserts, Fast Food",893,INR,No,Yes,Yes,No,2,4.3,Green,Very Good,143
+443,Golden Express 443,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",73.1676,28.4185,"Pizza, Japanese, Bakery",1332,INR,Yes,No,Yes,Yes,3,3.3,Yellow,Average,1543
+444,Mumbai Flavors 444,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",75.6289,20.5902,Mughlai,1384,INR,No,No,Yes,Yes,3,3.6,Green,Good,3328
+445,Spice Corner 445,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",75.0613,15.1934,South Indian,1323,INR,No,Yes,Yes,No,3,4.1,Green,Very Good,1551
+446,Kitchen Lounge 446,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",72.8923,20.0024,"Biryani, North Indian",524,INR,Yes,No,No,Yes,1,4.6,Green,Excellent,3657
+447,Delhi Flavors 447,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",75.4052,17.4942,Biryani,1849,INR,No,No,No,Yes,4,4.5,Green,Excellent,4750
+448,Mumbai Grill 448,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",76.979,14.7477,Biryani,977,INR,No,No,Yes,Yes,2,3.8,Green,Good,2204
+449,Delhi Flavors 449,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",75.8877,14.9723,"Desserts, Pizza",950,INR,No,No,No,No,2,3.0,Yellow,Average,2788
+450,Urban Express 450,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",73.7376,22.4708,Bakery,1251,INR,No,No,No,Yes,3,2.7,Yellow,Poor,3965
+451,Urban Diner 451,1,Bangalore,"MG Road, Bangalore",MG Road,"MG Road, Bangalore, India",72.9503,13.9059,North Indian,1020,INR,Yes,Yes,Yes,Yes,2,3.1,Yellow,Average,1309
+452,Bangalore Diner 452,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",75.6402,14.5454,"Desserts, Chinese",1225,INR,No,No,Yes,Yes,3,3.8,Green,Good,1248
+453,Urban Flavors 453,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",74.173,19.876,"Chinese, South Indian, Italian",1459,INR,No,Yes,Yes,No,3,4.5,Green,Excellent,2972
+454,Golden Lounge 454,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",74.4042,20.8794,Continental,843,INR,No,No,No,No,2,3.5,Green,Good,63
+455,Kitchen Diner 455,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",76.5347,18.616,"Biryani, Thai, Italian",1215,INR,No,Yes,Yes,Yes,3,3.5,Green,Good,3363
+456,Mumbai Treats 456,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",73.5095,21.978,"Seafood, Mughlai",1066,INR,No,No,No,No,2,3.4,Yellow,Average,313
+457,Bangalore Grill 457,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",74.8971,16.1411,Mexican,1878,INR,No,No,No,Yes,4,3.9,Green,Good,1213
+458,House of Diner 458,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",74.1345,14.3665,Cafe,1082,INR,No,No,Yes,Yes,2,4.2,Green,Very Good,1042
+459,Royal Flavors 459,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",73.0817,18.7931,"Mexican, Thai, Biryani",1459,INR,No,Yes,Yes,Yes,3,4.2,Green,Very Good,4149
+460,Delhi Flavors 460,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",77.0034,22.8184,"North Indian, Pizza, Mughlai",1873,INR,Yes,No,No,No,4,4.4,Green,Very Good,4774
+461,Kitchen Palace 461,1,Pune,"Hinjewadi, Pune",Hinjewadi,"Hinjewadi, Pune, India",73.4888,19.6259,"Seafood, Thai, Chinese",1010,INR,Yes,Yes,Yes,No,2,3.8,Green,Good,2969
+462,Delhi Diner 462,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",75.239,19.1376,Pizza,535,INR,No,No,No,No,1,4.1,Green,Very Good,3309
+463,Bangalore Diner 463,1,Hyderabad,"Hitech City, Hyderabad",Hitech City,"Hitech City, Hyderabad, India",76.8574,14.7653,Japanese,508,INR,No,No,Yes,Yes,1,4.1,Green,Very Good,1069
+464,Spice Diner 464,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",73.5205,18.7692,Biryani,591,INR,No,No,No,Yes,1,3.4,Yellow,Average,2382
+465,Urban Flavors 465,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",75.0973,14.8328,"Biryani, Chinese, Pizza",1378,INR,Yes,Yes,No,No,3,4.5,Green,Excellent,1776
+466,Urban Express 466,1,Pune,"Camp, Pune",Camp,"Camp, Pune, India",75.1724,20.1828,"Pizza, Cafe, Seafood",1030,INR,No,Yes,No,Yes,2,4.4,Green,Very Good,4971
+467,Bangalore Hub 467,1,Pune,"Kothrud, Pune",Kothrud,"Kothrud, Pune, India",75.8358,26.5821,"Thai, Seafood",812,INR,No,Yes,Yes,Yes,2,2.6,Yellow,Poor,3639
+468,Mumbai Diner 468,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",73.6448,13.1998,"Japanese, Continental, Seafood",905,INR,Yes,No,Yes,No,2,4.6,Green,Excellent,995
+469,Cafe Grill 469,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",74.0087,14.7114,"North Indian, Cafe",850,INR,Yes,No,Yes,Yes,2,3.5,Green,Good,4334
+470,Delhi Kitchen 470,1,Mumbai,"Bandra, Mumbai",Bandra,"Bandra, Mumbai, India",73.6529,24.1701,Bakery,1752,INR,No,Yes,No,Yes,4,4.1,Green,Very Good,492
+471,Delhi Corner 471,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",75.117,24.7878,"Seafood, South Indian",597,INR,Yes,No,Yes,No,1,3.1,Yellow,Average,4900
+472,The Diner 472,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",77.3283,23.5665,BBQ,526,INR,Yes,No,No,No,1,4.0,Green,Very Good,162
+473,House of Grill 473,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",77.3184,21.6714,Fast Food,821,INR,Yes,No,No,Yes,2,4.8,Green,Excellent,2018
+474,Mumbai Corner 474,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",75.5502,20.9632,"Mexican, Japanese",1223,INR,Yes,Yes,No,Yes,3,3.4,Yellow,Average,2888
+475,Cafe Treats 475,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",77.2434,22.9357,Mexican,1431,INR,No,Yes,No,No,3,3.0,Yellow,Average,4145
+476,Delhi Lounge 476,1,Bangalore,"Whitefield, Bangalore",Whitefield,"Whitefield, Bangalore, India",72.8201,13.0513,"Cafe, North Indian, Pizza",1288,INR,No,No,No,Yes,3,4.0,Green,Very Good,26
+477,Delhi Kitchen 477,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",74.6177,26.1585,Pizza,1204,INR,Yes,No,No,Yes,3,3.3,Yellow,Average,3093
+478,Golden Palace 478,1,Hyderabad,"Banjara Hills, Hyderabad",Banjara Hills,"Banjara Hills, Hyderabad, India",76.6365,22.7787,North Indian,1313,INR,Yes,No,No,Yes,3,4.1,Green,Very Good,2941
+479,The Bites 479,1,Mumbai,"Powai, Mumbai",Powai,"Powai, Mumbai, India",75.1515,15.5935,"Continental, North Indian, South Indian",1699,INR,Yes,Yes,Yes,Yes,4,4.0,Green,Very Good,918
+480,Delhi Hub 480,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",75.9992,26.853,"Thai, Mexican, South Indian",1201,INR,No,Yes,No,No,3,2.6,Yellow,Poor,4375
+481,Bangalore Corner 481,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",73.0207,27.4106,Japanese,1072,INR,No,No,Yes,No,2,3.3,Yellow,Average,366
+482,Royal Corner 482,1,Bangalore,"BTM, Bangalore",BTM,"BTM, Bangalore, India",73.7253,18.1017,North Indian,1632,INR,Yes,Yes,No,No,4,3.0,Yellow,Average,3481
+483,Spice Kitchen 483,1,New Delhi,"Dwarka, New Delhi",Dwarka,"Dwarka, New Delhi, India",75.2425,16.6405,"Cafe, Mexican, South Indian",437,INR,No,Yes,No,Yes,1,3.0,Yellow,Average,2801
+484,Urban Garden 484,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",77.1198,19.8823,Seafood,954,INR,No,Yes,Yes,Yes,2,4.4,Green,Very Good,542
+485,Delhi Treats 485,1,Pune,"Koregaon Park, Pune",Koregaon Park,"Koregaon Park, Pune, India",75.7328,20.0639,"Seafood, Japanese",637,INR,No,Yes,No,Yes,1,4.2,Green,Very Good,1919
+486,Golden Bites 486,1,Hyderabad,"Gachibowli, Hyderabad",Gachibowli,"Gachibowli, Hyderabad, India",73.3921,20.9406,"Continental, South Indian, Chinese",581,INR,No,No,No,Yes,1,4.1,Green,Very Good,4866
+487,Mumbai Kitchen 487,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",74.2626,26.8865,Chinese,474,INR,Yes,No,No,No,1,3.8,Green,Good,4213
+488,Golden Diner 488,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",76.6502,21.7393,Japanese,827,INR,No,No,Yes,Yes,2,4.1,Green,Very Good,479
+489,Bangalore Kitchen 489,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",76.8044,21.8443,"Continental, BBQ",1371,INR,No,No,No,Yes,3,4.8,Green,Excellent,4923
+490,Bangalore Corner 490,1,New Delhi,"Saket, New Delhi",Saket,"Saket, New Delhi, India",74.9927,16.2676,BBQ,1046,INR,No,No,Yes,No,2,2.5,Yellow,Poor,1837
+491,The Lounge 491,1,Bangalore,"Indiranagar, Bangalore",Indiranagar,"Indiranagar, Bangalore, India",73.7137,22.1538,"North Indian, Italian",984,INR,Yes,Yes,Yes,Yes,2,3.8,Green,Good,1176
+492,Golden Express 492,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",73.7211,15.682,Mexican,1334,INR,Yes,Yes,Yes,No,3,3.3,Yellow,Average,4552
+493,Mumbai Express 493,1,New Delhi,"Karol Bagh, New Delhi",Karol Bagh,"Karol Bagh, New Delhi, India",77.2235,28.3382,Bakery,1022,INR,Yes,Yes,Yes,Yes,2,3.4,Yellow,Average,3060
+494,Spice Bites 494,1,Bangalore,"Koramangala, Bangalore",Koramangala,"Koramangala, Bangalore, India",75.5604,26.4001,"Seafood, Desserts, Mughlai",950,INR,Yes,No,Yes,Yes,2,4.7,Green,Excellent,2013
+495,Urban Diner 495,1,Mumbai,"Andheri, Mumbai",Andheri,"Andheri, Mumbai, India",74.6241,26.8423,"BBQ, Continental, Desserts",660,INR,No,No,No,Yes,1,3.6,Green,Good,541
+496,Mumbai Garden 496,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",73.7738,27.0392,"BBQ, Japanese, Thai",1031,INR,Yes,No,Yes,No,2,3.4,Yellow,Average,4793
+497,The Lounge 497,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",75.2385,16.5368,"Mughlai, Desserts, Fast Food",821,INR,No,No,No,No,2,2.8,Yellow,Poor,698
+498,Kitchen Corner 498,1,Hyderabad,"Jubilee Hills, Hyderabad",Jubilee Hills,"Jubilee Hills, Hyderabad, India",74.0484,14.099,"Desserts, BBQ",842,INR,No,Yes,No,Yes,2,3.4,Yellow,Average,1481
+499,Mumbai Kitchen 499,1,New Delhi,"Connaught Place, New Delhi",Connaught Place,"Connaught Place, New Delhi, India",73.9751,24.6743,Desserts,540,INR,Yes,Yes,No,Yes,1,3.0,Yellow,Average,1620
+500,Kitchen Treats 500,1,Mumbai,"Colaba, Mumbai",Colaba,"Colaba, Mumbai, India",75.2094,24.9263,"Seafood, Japanese",1276,INR,No,Yes,Yes,Yes,3,4.2,Green,Very Good,107
